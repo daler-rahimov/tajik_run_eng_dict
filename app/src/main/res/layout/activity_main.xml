@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/ex_list_view_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/languageLayoutColor"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:prompt="@string/language_prompt" />
+        <!-- android:entries="@array/country_arrays" -->
+
+        <Button
+            android:id="@+id/swap_laguage_button"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/ic_swap"
+            android:gravity="center" 
+            android:onClick="swapIconClick"/>
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:prompt="@string/language_prompt" />
+        <!-- android:entries="@array/country_arrays" -->
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="2dp" >
+    </ListView>
+
+</LinearLayout>

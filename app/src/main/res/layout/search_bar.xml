@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id = "@+id/serch_bar_relative_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <EditText
+        android:id="@+id/editTextSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/traslate_bar_hint"
+        android:inputType="text"
+        android:maxLines="1"
+        android:paddingRight="40dp"
+        android:singleLine="true"
+        android:textColor="@android:color/white" />
+
+    <ImageView
+        android:id="@+id/imageViewInsideTraslate"
+        android:visibility="invisible"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignRight="@+id/editTextSearch"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:contentDescription="@string/action_search"
+        android:src="@drawable/ic_action_action_close"/>
+
+</RelativeLayout>

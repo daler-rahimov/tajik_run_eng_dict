@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Taj. Rus. Eng. Dict</string>
+    <string name="Check_box">Сохранить</string>
+    <string name="action_settings">Настройки</string>
+    <string name="marked_favor">Добавить </string>
+    <string name="un_marked_favor">Удалить</string>
+    <string name="action_search">Поиск</string>
+    <string name="traslate_bar_hint">Слово для поиска</string>
+
+    <string name="tajik_language">Таджикский</string>
+    <string name="english_language">Английский</string>
+    <string name="russian_language">Русский</string>
+    
+    <string name="language_prompt">Выберите язык</string>
+    <string name="swap">⇔</string>
+    <string name="menu_about">О программе</string>
+    <string name="version">Версия: 1.0 (05.01.2015)</string>
+    <string name="author">Разработчик: Далер Рахимов</string>
+    
+    <string name="about_app">
+          Словарь содержит более чем 230,000 слов. 
+        Словарь на трех языках Таджикский, Русский, Английский. 
+        Можно переводить с любого на любой язык. 
+        (Ё, Й, Ӣ, Ғ, Қ, Ӯ, Ҳ, Ҷ) можно заменять альтернативными буквами 
+        (Е, И, И, Г, К, У, Х, Ч) </string>
+
+</resources>

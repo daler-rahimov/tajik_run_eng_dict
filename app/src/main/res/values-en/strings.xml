@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Taj. Rus. Eng. Dict</string>
+    <string name="Check_box">save</string>
+    <string name="action_settings">Settings</string>
+    <string name="marked_favor">added to favorites</string>
+    <string name="un_marked_favor">deleted from favorites</string>
+    <string name="action_search">action search</string>
+    <string name="traslate_bar_hint">word for search</string>
+
+    <string name="tajik_language">Tajik</string>
+    <string name="english_language">English</string>
+    <string name="russian_language">Russian</string>
+    
+    <string name="language_prompt">Choose a language</string>
+    <string name="swap">⇔</string>
+    <string name="menu_about">About</string>
+	<string name="version">Version: 1.0 (05.01.2015)</string>
+    <string name="author">Developer: Daler Rahimov</string>
+    
+    <string name="about_app">
+          This dictionary includes 230 000 word in all 3 languages Tajik,
+        Russian and English and can translate from any languages (listed) 
+        to any other (listed). 
+        (Ё, Й, Ӣ, Ғ, Қ, Ӯ, Ҳ, Ҷ) could be replaced with  
+        (Е, И, И, Г, К, У, Х, Ч) </string>
+</resources>
